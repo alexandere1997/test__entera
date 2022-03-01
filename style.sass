@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap')
+body
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 100vh
+.box
+  width: 1136px
+  height: 640px
+  background-color: #454545
+  &__btn
+    background-color: rgba(26,26,26,0.94)
+    background-image: linear-gradient(180.0deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.0) 100%)
+    box-shadow: 0px 3px 3px 0px #000000, inset 0px 2px 0px 0px rgba(255,255,255,0.13)
+    font-family: Roboto
+    font-size: 24px
+    line-height: 16px
+    font-weight: 400
+    color: #ffffff
+    border: none
+    cursor: pointer
+    padding: 20px
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    border-radius: 20px
+  &__buttons
+    display: flex
+    margin-top: 26px
+    
+  &__buttons_mod
+    margin-top: 20px
+    margin-bottom: 0px
+  &__text
+    font-family: Roboto
+    font-size: 17px
+    line-height: 1.2
+    font-weight: 400
+    color: #ffffff
+    margin: 0
+    margin-top: 28px
+    margin-bottom: 28px
+  &__text_mod
+    margin-top: 10px
+    margin-bottom: 10px
+  &__title
+    font-family: Roboto
+    font-size: 24px
+    line-height: 16px
+    font-weight: 400
+    color: #ffffff
+    margin: 0
+    margin-top: 10px
+    margin-bottom: 10px
+    text-align: center
+  &__title_mod
+    margin-bottom: 33px
+  &__subtitle
+    font-family: Roboto
+    font-size: 22px
+    line-height: 16px
+    font-weight: 400
+    color: #ffffff
+    margin: 0
+    margin-top: 21px
+    margin-bottom: 21px
+    line-height: 22px
+  &__sub
+    font-family: Roboto
+    font-size: 22px
+    line-height: 16px
+    font-weight: 400
+    color: #ffffff
+    margin: 0
+    margin-top: 10px
+    margin-bottom: 10px
+  &__arrow
+    margin-left: 20px
+  &__wrap
+    display: flex
+    justify-content: space-between
+  &__chek
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 340px
+  &__voskl
+    width: 48px
+    height: 48px
+    background-color: rgba(26,26,26,0.94)
+    background-image: linear-gradient(180.0deg, rgba(255,255,255,0.09) 0%, rgba(255,255,255,0.0) 100%)
+    box-shadow: 0px 3px 3px 0px #000000, inset 0px 2px 0px 0px rgba(255,255,255,0.13)
+    display: flex
+    justify-content: center
+    align-items: center
+    border-radius: 150px
+  &__input
+    width: 84px
+    height: 44px
+    background-color: #ffffff
+    box-shadow: 0px 2px 0px 0px rgba(255,255,255,0.3), inset 0px 2px 3px 0px rgba(0,0,0,0.42)
+    border: none
+    border-radius: 10px
+    font-family: Roboto
+    font-size: 24px
+    line-height: 24px
+    font-weight: 800
+    color: #333333
+    text-align: right
+  &__numbers
+    display: flex
+    justify-content: flex-end
+    align-items: center
+  &__container
+    padding-left: 66px
+    padding-right: 66px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+  &__line
+    width: 1px
+    height: 476px
+    background-color: rgba(0,0,0,0.8)
+    margin-left: 40px
+    margin-right: 40px
+    margin-top: 44px
+  &__left
+    width: 49%
+    margin-top: 23px
+  &__right
+    width: 49%
+    margin-top: 46px
+  &__chekbox[type=checkbox]
+    display: none
+  &__chekbox + label span
+    border: 1px solid #fff
+    font-size: 24pt
+    display: inline-block
+    background-color: #fff
+    border-radius: 5px
+    width: 36px
+    height: 36px
+    line-height: 0.25em
+    margin: 4px 8px 8px 8px
+    padding: 2px
+    text-align: center
+    vertical-align: middle
+    position: relative
+  &__chekbox:checked + label span::after
+    content: url(../img/gal.png)
+    position: absolute
+    top: 10px
+    left: 4px
+  &__inner
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    align-items: center
+    width: 452px
+    height: 67px
+    background-color: #2a2a2a
+    margin-bottom: 21px
+  &__img
+    padding-left: 14px
+    padding-right: 14px
+  &__count
+    width: 121px
+    height: 44px
+    background-color: #ffffff
+    box-shadow: 0px 2px 0px 0px rgb(255 255 255 / 30%), inset 0px 2px 3px 0px rgb(0 0 0 / 42%)
+    border: none
+    border-radius: 10px
+    font-family: Roboto
+    font-size: 24px
+    line-height: 24px
+    font-weight: 800
+    color: #333333
+    text-align: right
+  &__range
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__wrapper
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+  &__plus
+    background: transparent
+    border: none
+    cursor: pointer
+  &__btn_mod
+    width: 109px
+    padding: 0
+    height: 51px
+    margin-right: 8px
+  &__btn_mod1
+    width: 147px
+    padding: 0
+    height: 51px
+    margin-right: 8px
+  &__gorline
+    width: 451px
+    height: 1px
+    background-color: rgba(0, 0, 0, 0.8)
+    margin-top: 10px
+    margin-bottom: 10px
+  &__gorline_mod
+    margin-top: -6px
+  &__gorline_mod1
+    margin-bottom: -11px
+  &__subtitle_mod
+    margin-right: 10px
+  &__subtitle_mod1
+    margin-left: 10px
+input[type=range] 
+  -webkit-appearance: none
+  width: 240px
+  height: 6px
+  background-color: rgba(255,255,255,0.1)
+  margin-right: 10px
+  margin-left: 10px
+
+
+input[type=range]:focus 
+  outline: none
+
+input[type=range]::-webkit-slider-runnable-track 
+  width: 100%
+  height: 6px
+  cursor: pointer
+  background-color: rgba(255,255,255,0.1)
+  box-shadow: 0px 2px 0px 0px rgba(255,255,255,0.18), inset 0px 2px 1px 0px rgba(0,0,0,0.77)
+  border-radius: 25px
+  border: 0px solid #000101
+
+input[type=range]::-webkit-slider-thumb 
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d
+  border: 0px solid #000000
+  height: 50px
+  width: 50px
+  border-radius: 7px
+  background: url(../img/radio.png) no-repeat
+  cursor: pointer
+  -webkit-appearance: none
+  margin-top: -10px
+
+input[type=range]:focus::-webkit-slider-runnable-track 
+  background-color: rgba(255,255,255,0.1)
+
+input[type=range]::-moz-range-track 
+  width: 100%
+  height: 12.8px
+  cursor: pointer
+  animate: 0.2s
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d
+  background-color: rgba(255,255,255,0.1)
+  border-radius: 25px
+  border: 0px solid #000101
+
+input[type=range]::-moz-range-thumb 
+  background-color: rgba(255,255,255,0.1)
+  border: 0px solid #000000
+  height: 20px
+  width: 39px
+  border-radius: 7px
+  background-color: rgba(255,255,255,0.1)
+  cursor: pointer
+
+input[type=range]::-ms-track 
+  width: 100%
+  height: 12.8px
+  cursor: pointer
+  animate: 0.2s
+  background-color: rgba(255,255,255,0.1)
+  border-color: transparent
+  border-width: 39px 0
+  color: transparent
+
+input[type=range]::-ms-fill-lower 
+  background-color: rgba(255,255,255,0.1)
+  border: 0px solid #000101
+  border-radius: 50px
+  box-shadow: 0px 0px 0px #000000, 0px 0px 0px #0d0d0d
+
+input[type=range]::-ms-fill-upper 
+  background-color: rgba(255,255,255,0.1)
+  border: 0px solid #000101
+  border-radius: 50px
+  background-color: rgba(255,255,255,0.1)
+
+input[type=range]::-ms-thumb 
+  background-color: rgba(255,255,255,0.1)
+  border: 0px solid #000000
+  height: 20px
+  width: 39px
+  border-radius: 7px
+  background-color: rgba(255,255,255,0.1)
+  cursor: pointer
+
+input[type=range]:focus::-ms-fill-lower 
+  background-color: rgba(255,255,255,0.1)
+
+input[type=range]:focus::-ms-fill-upper 
+ background-color: rgba(255,255,255,0.1)
+
+@media (max-width: 1199px)
+  body
+    height: auto
+  .box
+    height: auto
+    &__wrap
+      flex-direction: column
+      align-items: center
+    &__line
+      width: 100%
+      height: 1px
+    &__left
+      width: 100%
+    &__right
+      width: 100%
+    &__buttons_mod
+      margin-bottom: 40px
+
+
+

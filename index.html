@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <form class="box">
+      <div class="box__container">
+        <div class="box__wrap">
+          <div class="box__left">
+            <h3 class="box__title box__title_mod">Входной взнос</h3>
+            <div class="box__inner">
+              <img class="box__img" src="img/fishk.png" alt="">
+              <div>
+                <p class="box__sub">5/10</p>
+                <p class="box__sub">ФЛ Холдем</p>
+              </div>
+            </div>
+            <p class="box__subtitle">Доступно средств: 2609</p>
+            <div class="box__range">
+              <input class="box__count" type="text">
+              <div class="box__wrapper">
+                <button class="box__plus"><img src="img/minus.png" alt=""></button>
+                <input class="box__ranges" type="range" id="vol" name="vol" min="0" max="50">
+                <button class="box__plus"><img src="img/plus.png" alt=""></button>
+              </div>
+            </div>
+            <div></div>
+            <div class="box__buttons">
+              <button class="box__btn box__btn_mod">Min</button>
+              <button class="box__btn box__btn_mod">Max</button>
+              <button class="box__btn box__btn_mod">Bank</button>
+              <button class="box__btn box__btn_mod">1/2 Bank</button>
+            </div>
+            <p class="box__text">Ваш входной взнос не может быть меньше суммы, с которой вы покинули данный стол. Нажмите кнопку ОК, чтобы продолжить, или подождите, когда пройдет время ограничения.</p>
+            <button class="box__btn">Быстрая посадка и автодокупка <img class="box__arrow" src="img/arrow.png" alt="arrow"> <img src="img/arrow.png" alt="arrow"></button>
+
+          </div>
+          <div class="box__line"></div>
+          <div class="box__right">
+            <div class="box__chek">
+              
+              <input id="fb" class="box__chekbox" type="checkbox">
+              <label for="fb"><span></span></label>
+              <p class="box__title">Быстрая посадка</p>
+              <div class="box__voskl">
+                <img src="img/voskl.png" alt="">
+              </div>
+            </div>
+            <div class="box__numbers">
+              <p class="box__subtitle box__subtitle_mod">Автоматически <br>
+                ставить на стол:</p>
+              <input type="text" class="box__input" value="2">
+              <p class="box__subtitle box__subtitle_mod1">ББ</p>
+            </div>
+            <div class="box__gorline box__gorline_mod"></div>
+            <div class="box__chek">
+              
+              <input id="fb1" class="box__chekbox" type="checkbox">
+              <label for="fb1"><span></span></label>
+              <p class="box__title">Автодокупка</p>
+              <div class="box__voskl">
+                <img src="img/voskl.png" alt="">
+              </div>
+            </div>
+            <p class="box__text box__text_mod">Я хочу пользоваться функцией автоматической докупки и понимаю, что она будет автоматически пополнять мой счет для обеспечения заданого номера стека.</p>
+            <div class="box__numbers">
+              <p class="box__subtitle box__subtitle_mod">Если у меня меньше:</p>
+              <input type="text" class="box__input" value="2">
+              <p class="box__subtitle box__subtitle_mod1">ББ</p>
+            </div>
+            <div class="box__numbers">
+              <p class="box__subtitle box__subtitle_mod">Автоматически докупать до:</p>
+              <input type="text" class="box__input" value="2">
+              <p class="box__subtitle box__subtitle_mod1">ББ</p>
+            </div>
+            <div class="box__gorline box__gorline_mod1"></div>
+            <div class="box__chek">
+              
+              <input id="fb2" class="box__chekbox" type="checkbox">
+              <label for="fb2"><span></span></label>
+              <p class="box__text">Сохранить настройки после <br>
+                выхода из приложения</p>
+              <div class="box__voskl">
+                <img src="img/voskl.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box__buttons box__buttons_mod">
+          <button class="box__btn box__btn_mod1">Ok</button>
+          <button class="box__btn box__btn_mod1">Cashier</button>
+          <button class="box__btn box__btn_mod1">Cancel</button>
+        </div>
+      </div>
+    </form>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
